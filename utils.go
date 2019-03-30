@@ -3,10 +3,11 @@ package properties
 import (
 	"strings"
 	"github.com/pkg/errors"
+	"strconv"
 )
 
 func isExplain(s string)bool  {
-	if strings.HasPrefix(s,"#"){
+	if strings.HasPrefix(s,"#") || s==""{
 		return true
 	}
 	return false
@@ -20,4 +21,28 @@ func split(s string)([]string ,error) {
 	var rs = []string{strings.Trim(ss[0]," "),strings.Trim(ss[1]," ")}
 	return rs,nil
 }
+
+func resolveValue(v string)interface{}  {
+	if strings.HasPrefix(v,"\"")&& strings.HasSuffix(v,"\""){
+		return strings.Trim(v,"\"")
+	}else if strings.HasPrefix(v,"[") && strings.HasSuffix(v,"]") {
+		vs:=strings.Split(v[1:len(v)-1],",")
+
+		var values []interface{}
+		for _,vue:=range vs{
+			values = append(values,resolveValue(strings.Trim(vue," ")))
+		}
+		return values
+	} else{
+		if i,err:=strconv.ParseFloat(v,64);err==nil{
+			return i
+		}
+		if b,err:=strconv.ParseBool(v);err ==nil{
+			return b
+		}
+
+	}
+	return v
+}
+
 

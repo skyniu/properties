@@ -1,24 +1,28 @@
-package properties
+# useage
 
-import (
-	"testing"
-	"fmt"
-)
+## properties 
+
+
+## usage
+- install
+
+````text
+go get github.com/skyniu/properties
+````
+- example
+````go
 var data = `
 enable = true
 host = 127.0.0.1
 port = ":8082"
-#log --------------------
 log.level = 1
 log.file = log.txt
-log.files = ["info.log","error.log","debug.log",warn.log]
+log.files = ["info.log","error.log","debug.log"]
 log.maxdays = 1
 log.asyn = true
-# database ---------------------------
-database.user[0].username = "user123-0"
-database.user[1].username = "user123-1"
-database.user[0].password = "123456-0"
-database.user[1].password = "123456-1"
+
+database.user.username = "user123"
+database.user.password = "123456"
 database.address = "10.1.12.23:3306"
 
 `
@@ -39,7 +43,7 @@ type Log struct {
 }
 
 type DataBase struct {
-	User []User `json:"user"`
+	User User `json:"user"`
 	Address string `json:"address"`
 }
 
@@ -50,12 +54,10 @@ type User struct {
 
 
 
-func TestUnMarshal(t *testing.T) {
+func main() {
 	p:= NewMustProperties([]byte(data))
 	var c Conf
 	fmt.Println(p.Unmarshal(&c))
 	fmt.Printf("%+v\n",c)
-
-
-
 }
+````
