@@ -15,14 +15,17 @@ var data = `
 enable = true
 host = 127.0.0.1
 port = ":8082"
+#log --------------------
 log.level = 1
 log.file = log.txt
-log.files = ["info.log","error.log","debug.log"]
+log.files = ["info.log","error.log","debug.log",warn.log]
 log.maxdays = 1
 log.asyn = true
-
-database.user.username = "user123"
-database.user.password = "123456"
+# database ---------------------------
+database.user[0].username = "user123-0"
+database.user[1].username = "user123-1"
+database.user[0].password = "123456-0"
+database.user[1].password = "123456-1"
 database.address = "10.1.12.23:3306"
 
 `
@@ -43,7 +46,7 @@ type Log struct {
 }
 
 type DataBase struct {
-	User User `json:"user"`
+	User []User `json:"user"`
 	Address string `json:"address"`
 }
 

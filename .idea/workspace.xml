@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a292919-4538-4655-bc5e-9efb427bb47f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decode_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/decode_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decoder.go" beforeDir="false" afterPath="$PROJECT_DIR$/properties.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref.go" beforeDir="false" afterPath="$PROJECT_DIR$/ref.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflect.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scanner.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils.go" afterDir="false" />
-    </list>
+    <list default="true" id="0a292919-4538-4655-bc5e-9efb427bb47f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="properties.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="properties.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/properties.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+            <state relative-caret-position="92">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ioutil.go" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/io/ioutil/ioutil.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -60,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decode_test.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="decode_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/decode_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-445">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="-221">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="e#20#48#0" expanded="true" />
               </folding>
@@ -72,11 +70,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="testing.go" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/testing/testing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="791" selection-start-line="791" selection-end-line="791" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="test.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="266">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -84,7 +91,7 @@
       <file leaf-file-name="utils.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="19">
               <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="e#20#66#0" expanded="true" />
@@ -96,10 +103,15 @@
       <file leaf-file-name="ref.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ref.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
+            <state relative-caret-position="486">
               <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="properties.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/properties.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -119,15 +131,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/scanner.go" />
-        <option value="$PROJECT_DIR$/test.properties" />
         <option value="$PROJECT_DIR$/reflect.go" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/decoder.go" />
         <option value="$PROJECT_DIR$/ref.go" />
-        <option value="$PROJECT_DIR$/utils.go" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/decode_test.go" />
         <option value="$PROJECT_DIR$/properties.go" />
+        <option value="$PROJECT_DIR$/utils.go" />
+        <option value="$PROJECT_DIR$/test.properties" />
+        <option value="$PROJECT_DIR$/decode_test.go" />
       </list>
     </option>
   </component>
@@ -194,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestUnMarshal in github.com/skyniu/properties">
+  <component name="RunManager" selected="Go Test.decode_test.go">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -274,8 +286,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestUnMarshal in github.com/skyniu/properties" />
         <item itemvalue="Go Test.decode_test.go" />
+        <item itemvalue="Go Test.TestUnMarshal in github.com/skyniu/properties" />
         <item itemvalue="Go Test.TestMarshal in github.com/skyniu/properties" />
       </list>
     </recent_temporary>
@@ -291,26 +303,11 @@
       <option name="presentableId" value="Default" />
       <updated>1553852102847</updated>
       <workItem from="1553852106232" duration="2648000" />
-      <workItem from="1553921551150" duration="7209000" />
+      <workItem from="1553921551150" duration="8164000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMarshal_in_github_com_skyniu_properties - 2019.03.30 at 14h 07m 17s.xml">
-      <configuration name="TestMarshal in github.com/skyniu/properties" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="decode_test_go - 2019.03.30 at 14h 08m 04s.xml">
-      <configuration name="decode_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="decode_test_go - 2019.03.30 at 14h 08m 13s.xml">
-      <configuration name="decode_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="decode_test_go - 2019.03.30 at 14h 09m 31s.xml">
-      <configuration name="decode_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="decode_test_go - 2019.03.30 at 14h 09m 45s.xml">
-      <configuration name="decode_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="decode_test_go - 2019.03.30 at 14h 11m 43s.xml">
       <configuration name="decode_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -326,13 +323,27 @@
     <history-entry file="TestUnMarshal_in_github_com_skyniu_properties - 2019.03.30 at 16h 34m 38s.xml">
       <configuration name="TestUnMarshal in github.com/skyniu/properties" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestUnMarshal_in_github_com_skyniu_properties - 2019.03.30 at 16h 51m 05s.xml">
+      <configuration name="TestUnMarshal in github.com/skyniu/properties" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestUnMarshal_in_github_com_skyniu_properties - 2019.03.30 at 16h 52m 07s.xml">
+      <configuration name="TestUnMarshal in github.com/skyniu/properties" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="decode_test_go - 2019.03.30 at 16h 55m 38s.xml">
+      <configuration name="decode_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="decode_test_go - 2019.03.30 at 16h 56m 25s.xml">
+      <configuration name="decode_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="decode_test_go - 2019.03.30 at 16h 57m 18s.xml">
+      <configuration name="decode_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9857000" />
+    <option name="totallyTimeSpent" value="10812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
@@ -352,11 +363,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="LuaCheck" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18271954" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41926345" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25354108" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25354108" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -437,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scanner.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -465,20 +469,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.go">
+    <entry file="file://C:/Go/src/io/ioutil/ioutil.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#20#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ref.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
+        <state relative-caret-position="486">
           <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/properties.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#20#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -492,27 +520,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decode_test.go">
+    <entry file="file://C:/Go/src/testing/testing.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="e#20#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        <state relative-caret-position="100">
+          <caret line="791" selection-start-line="791" selection-end-line="791" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/properties.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+        <state relative-caret-position="92">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decode_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#20#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
