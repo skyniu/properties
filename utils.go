@@ -2,8 +2,9 @@ package properties
 
 import (
 	"strings"
-	"github.com/pkg/errors"
 	"strconv"
+	"regexp"
+	"errors"
 )
 
 func isExplain(s string)bool  {
@@ -45,4 +46,8 @@ func resolveValue(v string)interface{}  {
 	return v
 }
 
+func splitArray(){
+	regexp.MustCompile("(\\*(.+),\\*)*")
+
+}
 

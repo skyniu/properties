@@ -57,8 +57,8 @@ func (p *Properties)GetString(k string)string  {
 }
 
 func (p *Properties)GetInt(k string,def int)int  {
-	if s,ok:=p.Get(k).(int);ok{
-		return s
+	if s,ok:=p.Get(k).(float64);ok{
+		return int(s)
 	}
 	return def
 }
