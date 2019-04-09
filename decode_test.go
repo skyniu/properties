@@ -73,3 +73,7 @@ func TestMarshal(t *testing.T) {
 		}
 	}
 }
+
+func TestMarshalInterface(t *testing.T) {
+	splitArray()
+}

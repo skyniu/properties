@@ -5,6 +5,7 @@ import (
 	"strconv"
 	"regexp"
 	"errors"
+	"fmt"
 )
 
 func isExplain(s string)bool  {
@@ -27,8 +28,11 @@ func resolveValue(v string)interface{}  {
 	if strings.HasPrefix(v,"\"")&& strings.HasSuffix(v,"\""){
 		return strings.Trim(v,"\"")
 	}else if strings.HasPrefix(v,"[") && strings.HasSuffix(v,"]") {
-		vs:=strings.Split(v[1:len(v)-1],",")
 
+		vs:=strings.Split(v[1:len(v)-1],",")
+		if len(vs)==1 && strings.Trim(vs[0]," ")==""{
+			return []interface{}{}
+		}
 		var values []interface{}
 		for _,vue:=range vs{
 			values = append(values,resolveValue(strings.Trim(vue," ")))
@@ -47,7 +51,18 @@ func resolveValue(v string)interface{}  {
 }
 
 func splitArray(){
-	regexp.MustCompile("(\\*(.+),\\*)*")
+	r:=regexp.MustCompile("\\[((.+,)|(\".+,\"))*\\]")
+	g:=r.FindAllSubmatch([]byte(`[1,2,3,4,5,]`),-1)
+	fmt.Println(len(g))
+	for _,v:=range g{
+		for _,l:=range v{
+			fmt.Print(string(l)," ")
+		}
+		fmt.Println()
+	}
 
 }
 
+func splitA(s string)  {
+
+}
